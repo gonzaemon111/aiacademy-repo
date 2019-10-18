@@ -76,3 +76,9 @@ for i in range(1,11):
     result.append(i**2)
 
 print(result)
+
+# 標準入力
+
+print("名前を入力してください")
+name = input()
+print("あなたの名前は"+name+"です")
