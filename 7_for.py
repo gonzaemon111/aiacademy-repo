@@ -61,3 +61,18 @@ n = 0
 while n < 10:
     print(n)
     n += 1 # +1するのを忘れずに。
+
+
+print("------------")
+
+print("リスト内包表記(List Comprehensions)")
+# リスト内包表記(List Comprehensions)
+result = [x**2 for x in range(1,11)]
+print(result) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# 通常のループでは次のようになります。
+result = []
+for i in range(1,11):
+    result.append(i**2)
+
+print(result)
